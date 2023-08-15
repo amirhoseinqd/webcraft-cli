@@ -1,0 +1,14 @@
+{
+    "name": "webscaffold",
+    "version": "1.0.0",
+    "description": "A basic structure for vanilla JS projects",
+    "bin": {
+        "webscaffold": "./bin/webscaffold"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "path": "^0.12.7"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}
