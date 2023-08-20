@@ -1,9 +1,9 @@
 {
-    "name": "webscaffold",
-    "version": "1.0.0",
-    "description": "A basic structure for vanilla JS projects",
+    "name": "webcraft",
+    "version": "0.0.2",
+    "description": "CLI for creating Vanilla Javascript Projects",
     "bin": {
-        "webscaffold": "./bin/webscaffold"
+        "webcraft": "./bin/webcraft"
     },
     "dependencies": {
         "fs": "^0.0.1-security",

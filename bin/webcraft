@@ -6,5 +6,5 @@ const [, , ...args] = process.argv;
 if (args[0] === 'create') {
     createProject(args[1]);
 } else {
-    console.error('Invalid command. Usage: webscaffold create <project-name>');
+    console.error('Invalid command. Usage: webcraft create <project-name>');
 }
