@@ -5,9 +5,9 @@ const [, , command, ...args] = process.argv;
 
 if (command === 'create') {
     createProject(args[0])
-} else if (command === 'help' || '-h') {
+} else if (command === 'help') {
     displayHelp()
-} else if (command === 'version' || '-v') {
+} else if (command === 'version') {
     displayVersion()
 } else {
     console.error('Invalid Command, Try Again Please.')
