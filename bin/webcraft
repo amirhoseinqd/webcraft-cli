@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 
-const { createProject } = require('../lib/create');
-const [, , ...args] = process.argv;
+const { createProject, displayHelp, displayVersion } = require('../lib/create'); // Import new functions
+const [, , command, ...args] = process.argv;
 
-if (args[0] === 'create') {
-    createProject(args[1]);
+if (command === 'create') {
+    createProject(args[0]);
+} else if (command === 'help') {
+    displayHelp();
+} else if (command === 'version') {
+    displayVersion();
 } else {
-    console.error('Invalid command. Usage: webcraft create <project-name>');
+    console.error('Invalid command. Usage: webcraft <command>');
 }
