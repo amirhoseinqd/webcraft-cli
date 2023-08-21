@@ -70,7 +70,7 @@ WebCraft CLI is an ongoing project, and future updates will bring exciting new f
 
 ## Contributing
 
-WebCraft CLI is an open-source project, and contributions are welcome! If you have ideas for new features, bug fixes, or improvements, feel free to submit a pull request or create an issue on the [GitHub repository](https://github.com/your-username/webcraft-cli).
+WebCraft CLI is an open-source project, and contributions are welcome! If you have ideas for new features, bug fixes, or improvements, feel free to submit a pull request or create an issue on the [GitHub repository](https://github.com/amirhoseinqd/webcraft-cli).
 
 ## License
 
@@ -78,4 +78,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Happy coding with WebCraft CLI! If you encounter any issues or have suggestions, please don't hesitate to reach out on the [GitHub repository](https://github.com/your-username/webcraft-cli). Your feedback is greatly appreciated.
+Happy coding with WebCraft CLI! If you encounter any issues or have suggestions, please don't hesitate to reach out on the [GitHub repository](https://github.com/amirhoseinqd/webcraft-cli). Your feedback is greatly appreciated.
