@@ -4,15 +4,13 @@ WebCraft CLI is a Node.js package designed to simplify the process of creating b
 
 ## Installation
 
-You can use `npx` to run WebCraft CLI without having to install it globally. Simply execute the following command in your terminal:
+You can run the following command to install Webcraft:
 
 ```sh
 
-npx webcraft create <project-name>
+npm install webcraft-cli
 
 ```
-
-Replace `<project-name>` with the desired name of your project.
 
 ## Features
 
@@ -30,27 +28,35 @@ Replace `<project-name>` with the desired name of your project.
 
 1\. **Create a New Project:**
 
-   Run the following command to create a new web project:
+You can use `npx` to run WebCraft CLI without having to install it globally. Simply execute the following command in your terminal:
 
-   ```sh
+```sh
 
-   npx webcraft create <project-name>
+npx webcraft create <project-name>
 
-   ```
+```
 
-   This will generate a directory with the specified `<project-name>` and set up the basic project structure.
+Replace `<project-name>` with the desired name of your project.
+
+```sh
+
+npx webcraft create <project-name>
+
+```
+
+This will generate a directory with the specified `<project-name>` and set up the basic project structure.
 
 2\. **Start Developing:**
 
-   After the project is generated, navigate into the project directory:
+After the project is generated, navigate into the project directory:
 
-   ```sh
+```sh
 
-   cd <project-name>
+cd <project-name>
 
-   ```
+```
 
-   You can now start building your web application by editing the HTML, CSS, and JavaScript files provided.
+You can now start building your web application by editing the HTML, CSS, and JavaScript files provided.
 
 ## Future Enhancements
 
