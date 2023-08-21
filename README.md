@@ -2,16 +2,6 @@
 
 WebCraft CLI is a Node.js package designed to simplify the process of creating basic web project structures using vanilla JavaScript. With just a single command, you can set up a new web project with HTML, CSS, and JavaScript files that are interconnected and ready for development. As WebCraft CLI continues to evolve, more features will be added to enhance its capabilities and offer even greater value to web developers.
 
-## Installation
-
-You can run the following command to install Webcraft:
-
-```sh
-
-npm install webcraft-cli
-
-```
-
 ## Features
 
 - Quickly generate the basic structure of a web project.
@@ -23,6 +13,16 @@ npm install webcraft-cli
 - Include a JavaScript file that's ready for your custom scripts.
 
 - All files are interconnected and ready for development.
+
+## Installation
+
+You can run the following command to install Webcraft:
+
+```sh
+
+npm install webcraft-cli
+
+```
 
 ## Usage
 
@@ -38,6 +38,7 @@ npx webcraft create <project-name>
 
 This will generate a directory with the specified `<project-name>` and set up the basic project structure.
 Replace `<project-name>` with the desired name of your project.
+
 
 2\. **Start Developing:**
 
