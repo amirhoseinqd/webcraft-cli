@@ -36,15 +36,8 @@ npx webcraft create <project-name>
 
 ```
 
-Replace `<project-name>` with the desired name of your project.
-
-```sh
-
-npx webcraft create <project-name>
-
-```
-
 This will generate a directory with the specified `<project-name>` and set up the basic project structure.
+Replace `<project-name>` with the desired name of your project.
 
 2\. **Start Developing:**
 
