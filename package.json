@@ -1,13 +1,15 @@
 {
-    "name": "webcraft",
+    "name": "webcraft-cli",
     "version": "0.0.2",
     "description": "CLI for creating Vanilla Javascript Projects",
+    "keywords": ["cli", "web", "Javascript"],
     "bin": {
-        "webcraft": "./bin/webcraft"
+        "webcraft": "bin/webcraft"
     },
     "dependencies": {
         "fs": "^0.0.1-security",
-        "path": "^0.12.7"
+        "path": "^0.12.7",
+        "webcraft-cli": "^0.0.2"
     },
     "author": "Amirhosein Qadamgahi",
     "license": "MIT"
